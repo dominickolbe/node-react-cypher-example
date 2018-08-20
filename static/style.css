@@ -1,0 +1,64 @@
+html, body {
+  background-color: #f1f3f6;
+  color: hsla(210, 29%, 20%, 1);
+  font-family: 'Varela Round', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+body {
+  padding: 25px 0;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 25px;
+  width: 100%;
+}
+
+h1 {
+  border-bottom: 3px solid hsla(210, 29%, 20%, 1);
+  display: table;
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 1;
+  margin: 0 auto 50px;
+  padding: 0;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  background: hsla(210, 29%, 20%, 0.05);
+  border: none;
+  border-bottom: 2px solid hsla(210, 29%, 20%, 1);
+  color: hsla(210, 29%, 20%, 1);
+  font-size: 1.5em;
+  font-weight: bold;
+  height: 50px;
+  outline: none;
+  text-align: center;
+  width: 100%;
+}
+
+input::placeholder {
+  color: hsla(210, 29%, 60%, 1);
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 300;
+  font-size: .75em;
+}
+
+pre {
+  background: hsla(210, 29%, 20%, 0.05);
+  font-size: 2em;
+  min-height: 100px;
+  padding: 10px;
+  white-space: pre-wrap;
+}

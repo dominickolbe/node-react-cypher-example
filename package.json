@@ -1,0 +1,35 @@
+{
+  "name": "node-react-cypher-example",
+  "version": "1.0.0",
+  "repository": "git@github.com:dominickolbe/node-react-cypher-example.git",
+  "author": "Dominic Kolbe <hi@dominickolbe.dk>",
+  "scripts": {
+    "webpack": "webpack --mode production --config ./webpack.config.js",
+    "pretest": "npm run build",
+    "test": "jest dist",
+    "prebuild": "rm -rf ./dist",
+    "build": "babel ./src/server -D -d dist && npm run webpack && cp ./static/* ./dist/public",
+    "prestart": "npm run build",
+    "start": "node ./dist/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.5.0",
+    "jest-cli": "^23.5.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}

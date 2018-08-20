@@ -31,40 +31,42 @@ npm install
 
 ## Folder structure
 
-`src/client` react application
-
-`src/server` express server
-
-`static` static files
+```
+src/
+  client/   (react application)
+  server/   (express.js server)
+  
+static/     (static files)
+```
 
 ## Production
 to start the server in production environment
 ```
-npm run start
+yarn start
 ```
 
 ## Testing
 you can run tests with the following commands
 ```
-npm run test
+yarn test
 ```
 
 ## other tasks
 ```
 // build react app
-npm run webpack
+yarn webpack
 
 // build entire application
-npm run build
+yarn build
 ```
 
 ## TODO
 
 next steps could be:
 
-- better validation on server and frontend
+- add more validation to server and client
 - API throttling
-- redux store (eg to handle localstorage)
+- create redux store (eg to handle localstorage)
 - styling
 
 

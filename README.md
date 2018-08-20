@@ -7,12 +7,13 @@
 [![Build Status](https://travis-ci.com/dominickolbe/node-react-cypher-example.svg?token=8mQZSyxk8kfsuCnM7pjH&branch=master)](https://travis-ci.com/dominickolbe/node-react-cypher-example)
 
 ## Requirements
-I used the following installed versions to build this project
+I used the following installed versions to build this project:
 
 - node v9.8.0
 - npm 5.6.0
 - yarn 1.9.4
-- latest chrome on mac os
+- macOS Hight Sierra 10.13.6
+- Google Chrome 68.0.3440.106 (Official Build) (64-bit)
 
 I prefer to use [node version manager](https://github.com/creationix/nvm) to manage different versions of nodejs on your computer
 ```
@@ -40,13 +41,13 @@ static/     (static files)
 ```
 
 ## Production
-to start the server in production environment
+start server in production environment
 ```
 yarn start
 ```
 
 ## Testing
-you can run tests with the following commands
+execute tests
 ```
 yarn test
 ```

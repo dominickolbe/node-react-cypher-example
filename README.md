@@ -1,8 +1,10 @@
 # node-react-cypher-example
+**This is an example project using nodejs and react.**
+**I just wanted to figure out, if it's possible to have a nodejs server and a react frontend application in one project and how to deal with it. here is the result...**
+
 > decrypt secret messages
 
 [![Build Status](https://travis-ci.com/dominickolbe/node-react-cypher-example.svg?token=8mQZSyxk8kfsuCnM7pjH&branch=master)](https://travis-ci.com/dominickolbe/node-react-cypher-example)
-
 
 ## Requirements
 I used the following installed versions to build this project

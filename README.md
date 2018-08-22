@@ -4,7 +4,7 @@
 
 > decrypt secret messages
 
-[![Build Status](https://travis-ci.com/dominickolbe/node-react-cypher-example.svg?token=8mQZSyxk8kfsuCnM7pjH&branch=master)](https://travis-ci.com/dominickolbe/node-react-cypher-example)
+[![Build Status](https://travis-ci.org/dominickolbe/node-cli-example.svg?branch=master)](https://travis-ci.org/dominickolbe/node-cli-example)
 
 ## Requirements
 I used the following installed versions to build this project:
